@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        // 1 пункт переполнение
+        // переполнение
         byte a = 100;
         byte b = 28;
         byte c = a + b;
@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Max int: " + d);
         System.out.println("Too much if = " + (d + 1));
 
-        // 2 пункт
+        // 1 пункт
         int x = 1;
         int y = 10;
 
@@ -49,6 +49,10 @@ public class Main {
         } else {
             System.out.println("Yep");
         }
+        // 2 пункт
+        double d2 = 3.124;
+        int number = 256;
+        System.out.println(d2 * number);
 
     }
 }
